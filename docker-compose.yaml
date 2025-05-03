@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  model-env:
+    build:
+      context: ./docker/common
+      dockerfile: Dockerfile
+    image: llm-model-env
+    volumes:
+      - .:/workspace
+    working_dir: /workspace

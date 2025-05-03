@@ -1,0 +1,10 @@
+# .dockerignore
+*.log
+*.git
+*.md
+node_modules/
+.idea/
+*.iml
+*.swp
+*.bak
+*.tmp
